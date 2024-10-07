@@ -106,7 +106,7 @@ export const EditorContainer = ({fileId,folderId,runCode}) => {
         <div className="root-editor-container" style={isFullscreen ? styles.fullscreen : {}}>
             <div className="editor-header">
                 <div className="editor-left-container">
-                    <b className="title">Editor</b>
+                    <b className="title">../Editor</b>
                     <span className="material-icons">edit</span>
                     <button onClick={onSaveCode}>Save code</button>
                 </div>
