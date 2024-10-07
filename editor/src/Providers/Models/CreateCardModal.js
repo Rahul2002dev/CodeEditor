@@ -38,7 +38,7 @@ export const CreateCard = () => {
                             <option value="python">Python</option>
                     </select>
                     <button type="submit">
-                            create playground
+                            Create Playground
                     </button>
                 </div>
             </form>

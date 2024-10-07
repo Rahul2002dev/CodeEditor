@@ -18,7 +18,7 @@ const fileExtentionMapping = {
     java:'java'
 }
 export const EditorContainer = ({fileId,folderId,runCode}) => {
-    const {getDefaultCode,getlanguage,updatelanguage,saveCode} = useContext(PlaygroundContext);
+    const {getDefaultCode,getlanguage,updatelanguage,saveCode,fileName} = useContext(PlaygroundContext);
     const[code,setCode] = useState(()=> {
         return getDefaultCode(fileId,folderId);
     });
@@ -106,7 +106,7 @@ export const EditorContainer = ({fileId,folderId,runCode}) => {
         <div className="root-editor-container" style={isFullscreen ? styles.fullscreen : {}}>
             <div className="editor-header">
                 <div className="editor-left-container">
-                    <b className="title">{"title of the card"}</b>
+                    <b className="title">Editor</b>
                     <span className="material-icons">edit</span>
                     <button onClick={onSaveCode}>Save code</button>
                 </div>

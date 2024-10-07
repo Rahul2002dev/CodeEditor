@@ -87,12 +87,12 @@ export const HomeScreen = () => {
     }
     return (
         <div className="home-container">
-            <nav className="Nav-Bar">Nav bar</nav>
+            <nav className="Nav-Bar">CODEDITOR</nav>
             <div className="left-container">
                 <div className='item-container'>
                     <img />
-                    <h1>accijob</h1>
-                    <h2>code.compiler.debug</h2>
+                    <h1>CODEDITOR</h1>
+                    <h2>Code.Compiler.Debug</h2>
                     <button onClick={openCreatePlaygroundModel}>
                         <span className='material-icons'>add</span>
                         <span>Create Playground</span>
@@ -104,7 +104,7 @@ export const HomeScreen = () => {
                     <div className='title'><span>My</span> playground</div>
                     <button className='add-folder' onClick={openCreatePlayground}>
                         <span className='material-icons'>add</span>
-                        <span>new folder</span>
+                        <span>New folder</span>
                     </button>
                 </div>
                 {
